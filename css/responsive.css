@@ -1,0 +1,184 @@
+/****** Media screen *********/
+
+/*** media screen for desktop view ====*/
+
+@media screen and (max-width: 1199px){
+	.site-menu li a{
+		padding: 12px 6px;
+	}
+}
+
+/** Media screen for landscape tablet, small tablet view 991px***/
+
+@media screen and (max-width: 991px){
+	/*==== Header start =====*/
+	.checkbtn{
+    	display: block;
+	    font-size: 22px;
+	    color: #00beff;
+	    float: right;
+	    margin-left: 10px;
+	    margin-top: 14px;
+	    background-color: #fff;
+	    padding: 3px 14px;
+	    border-radius: 4px;
+    }
+    .site-menu {
+		position: fixed;
+	    width: 100%;
+	    height: 80%;
+	    background: #e7e7e7;
+	    top: 90px;
+	    left: -100%;
+	    text-align: left;
+	    transition: all .5s;
+	}
+	.header .site-menu li{
+	    display: block;
+	    margin: 22px 30px;
+	    line-height: 0px;
+    }
+    .site-menu li a{
+    	color: #000;
+    	background-color: transparent;
+    	transition: 0.5s;
+    }
+    .site-menu li a:hover{
+    	background-color: #00beff;
+    	color: #fff;
+    }
+    #check:checked ~ .site-menu{
+    	left: 0;
+  	}
+  	.logo{
+  		position: absolute;
+	    left: 41%;
+	    margin: 0 -21px;
+  	}
+  	.fixed .site-menu li a{
+		color: #000;
+		transition: 0.5s;
+	}
+
+	.fixed .site-menu li a:hover{
+		color: #fff;
+	}
+
+  	/********** Slider video warp start *****/
+  	.banner-info h2{
+  		font-size: 56px;
+  	}
+  	.banner-head{
+  		font-size: 27px;
+  	}
+  	.banner-info p{
+  		padding: 0 152px !important;
+  	}
+    
+    /********** Creative-section start *****/
+  	.card-text h6{
+  		font-size: 18px;
+  	}
+}
+
+/** Media screen for portrait tablet, small tablet view 767px***/
+
+@media screen and (max-width: 767px){
+	/*==== Header start =====*/
+	.logo{
+  		position: absolute;
+	    left: 41%;
+	    margin: 0 -41px;
+  	}
+
+  	/********** Slider video warp start *****/
+  	.banner-info h2{
+  		font-size: 36px;
+  	}
+  	.banner-head{
+  		font-size: 20px;
+  	}
+  	.banner-info p{
+  		display: none;
+  	}
+  	.videoWrp{
+  		height: 400px;
+  	}
+  	.slider-wrap .readmore a {
+	    padding: 12px 24px;
+	    font-size: 14px;
+	}
+	.videoWrp .videoslider {
+	    top: 100px;
+	}
+
+	/********** About-section start *****/
+	.about-details h1{
+		font-size: 41px;
+    	margin-top: 40px;
+	}
+
+	/********** Creative-section start *****/
+	.creative-title h1{
+		font-size: 41px;
+	}
+	.creative-title p{
+		padding: 0 0;
+	}
+	.card-text h6{
+  		font-size: 24px;
+  	}
+  	.card{
+  		margin: 18px 0;
+  	}
+
+  	/********** Pricing-table start *****/
+  	.pricingWrp{
+  		margin: 62px 0;
+  	}
+
+  	/********** Blog start *****/
+  	.blog-wrap li{
+  		margin: 10px 0;
+  	}
+}
+
+/** Media screen for large phone, large phone view 500px***/
+
+@media screen and (max-width: 500px){
+	/*==== Header start =====*/
+	.logo{
+  		position: absolute;
+	    left: 0%;
+	    margin: 0 50px;
+  	}
+
+  	/********** About-section start *****/
+	.about-details h1{
+		font-size: 35px;
+	}
+}
+
+/** Media screen for small phone, small phone view 371px***/
+
+@media screen and (max-width: 370px){
+	/*==== Header start =====*/
+	.logo{
+  		position: absolute;
+	    left: 0%;
+	    margin: 0 20px;
+  	}
+
+  	/********** About-section start *****/
+	.about-details h1{
+		font-size: 27px;
+	}
+
+	.creative-title h1{
+		font-size: 27px;
+	}
+
+	.text h1{
+		font-size: 27px;
+	}
+}
